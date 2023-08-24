@@ -13,7 +13,7 @@ library.add(faSearch);
 const pinia = createPinia();
 
 createApp(App)
-  .use(pinia)
   .use(router)
+  .use(pinia)
   .component("font-awesome-icon", FontAwesomeIcon)
   .mount("#app");
